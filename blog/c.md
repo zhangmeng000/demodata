@@ -1,5 +1,5 @@
 # hello c
-```jd
+```js
 console.log('ccc')
 
 ```

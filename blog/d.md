@@ -1,5 +1,5 @@
 # hello d
-```jd
+```js
 console.log('ddd')
 
 ```

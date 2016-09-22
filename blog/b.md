@@ -1,5 +1,5 @@
 # hello b
-```jd
+```js
 console.log('bbb')
 
 ```
