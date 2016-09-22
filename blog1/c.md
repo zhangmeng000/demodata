@@ -1,11 +1,11 @@
 # hello c
 ```js
-Git和Github基本操作手册
+#  Git和Github基本操作手册
 Git 及 Github 在工作学习中非常重要，它不仅仅是一个管理存放代码的仓库，更是一个开源的社区。学习Git及Github的操作是首要技能。 廖雪峰的 Git 教程
 
 额，文档整理的不一定完全准确，请酌情参考。
 
-1.git 安装及默认设置
+## 1.git 安装及默认设置
 安装 git
 在 linux 下直接使用命令：
 
@@ -23,12 +23,12 @@ git config --global user.email "977527479@qq.com"
 可以查看已有的配置信息
 
 git config --list
-2.工作流程
+## 2.工作流程
 克隆 Git 仓库作为工作目录（或者自己新建一个工作目录并初始化为Git仓库）。
 增加资源及修改文件。
 提交修改。
 如果他人修改了代码，可以更新资源。
-3.基本操作命令
+## 3.基本操作命令
 git init
 mkdir demo && cd demo
 git init
@@ -77,7 +77,7 @@ git checkout
 取消对某个文件的修改，通过 git status 查看状态，然后执行 git checkout
 
 git checkout 文件名
-3.推送代码
+## 3.推送代码
 首先，要在 github 上新建仓库，然后 clone 下来。
 
 git push
@@ -103,7 +103,7 @@ cat  ~/.ssh/id_rsa.pub
 将拷贝的 public key 添加在github账户上：
 
 右上角点击头像-> 点击settings-> 点击SSH KEYS-> 点击ADD SSH KEYS-> 将获取的public key粘贴于此
-4.分支操作
+## 4.分支操作
 创建新分支
 
 git branch [yourbranch]
@@ -119,14 +119,14 @@ git branch -d [yourbranch]
 推送分支
 
 git push origin [yourbranch]
-5.分支更新及合并
+## 5.分支更新及合并
 拉取主分支上的更新
 
 git pull origin master
 合并其他分支代码
 
 git merge [otherbranch]
-6.结语
+## 6.结语
 额，不完整，不断补充。
 
 
